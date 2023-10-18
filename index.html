@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>>- Cursos Gratis</title>
+</head>
+
+<body>
+  <div class="container mb-4">
+
+
+    <div class="row">
+      <div class="col-12" id="Inicio">
+        <div class="alert alert-success" style=" height: auto ; margin-top: 2rem;">
+          <div class="Tit_prin">
+            <img
+              src="data:image/jpeg;base64,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"
+              width="1080" height="250">
+            <h1> FORMULARIO </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+
+      <div class="col-8" id="cat-cursos">
+        <div class="alert alert-warning" style="height: auto ;">
+          <div class="container">
+            <h1>Datos De Usuario</h1>
+            <form>
+              <div class="mb-3">
+                <label for="numero">N° DOCUMENTO :</label>
+                <input type="numero" class="form-control" id="numero" maxlength="10">
+              </div>
+              <div class="mb-3">
+                <label for="texto1">NOMBRES :</label>
+                <input type="text" class="form-control" id="texto1" maxlength="40">
+              </div>
+              <div class="mb-3">
+                <label for="texto2">APELLIDOS :</label>
+                <input type="text" class="form-control" id="texto2" maxlength="40">
+              </div>
+              <div class="mb-3">
+                <label for="textoMultilinea">Descriva su formacion en la universidad (como ha sido ):</label>
+                <textarea class="form-control" id="textoMultilinea" rows="3" maxlength="200"></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="fecha">Fecha:</label>
+                <input type="date" class="form-control" id="fecha">
+              </div>
+              <div class="mb-3">
+                <label for="hora">Hora:</label>
+                <input type="time" class="form-control" id="hora">
+              </div>
+              <div class="mb-3">
+                <label for="casilla">Casilla:</label>
+                <input type="checkbox" id="casilla">
+              </div>
+              <div class="mb-3">
+                <label>FACULTAD A LA QUE PERTENECE :</label>
+                <div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opciones" id="opcion1" value="opcion1">
+                    <label class="form-check-label" for="opcion1">INGENIERIAS</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opciones" id="opcion2" value="opcion2">
+                    <label class="form-check-label" for="opcion2"> CIENCIAS</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="opciones" id="opcion3" value="opcion3">
+                    <label class="form-check-label" for="opcion3">MEDICINA</label>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="colores">Colores:</label>
+                <input type="color" class="form-control" id="colores" style="width: 7rem;">
+              </div>
+              <div class="mb-3">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="mb-3">
+                <label for="lista">CARRERA:</label>
+                <select class="form-control" id="lista">
+                  <option value="opcion1"></option>
+                  <option value="opcion1">Ing de sistemas</option>
+                  <option value="opcion2">Ing Mecanica</option>
+                  <option value="opcion3">Ing Civil</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="listaMultiple"> CADA CUANTO SE REALIZAN LOS PARCIALES :</label>
+                <select multiple class="form-control" id="listaMultiple">
+                  <option value="opcion1"> Mensual </option>
+                  <option value="opcion2"> Cada 15 Días </option>
+                  <option value="opcion3"> Cada dos meses </option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="autocomplete">Calidad Universitaria (alta, mediana, baja):</label>
+                <input type="text" class="form-control" id="autocomplete" list="opcionesAutocompletar">
+                <datalist id="opcionesAutocompletar">
+                  <option value="alta"></option>
+                  <option value="mediana"></option>
+                  <option value="baja"></option>
+                </datalist>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-4" style="height: auto;">
+        <aside>
+          <iframe
+            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FUnicordobaColombia%2Fposts%2Fpfbid0RXGHHEhy2g6EiFdNHLDUTY2uEQsDFKqzbp8uGYF15qE1LLo5JjuFNTS3HJFTLquxl&show_text=true&width=500"
+            width="350" height="900" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+            allowfullscreen="true"
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+        </aside>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12" id="footer">
+        <footer>
+          <div class="alert alert-warning text-center" role="alert">
+            <small>
+              Cl 15 3 -21 chinu - Córdoba, Colombia | Telefono: 286790 | mario05arroyo@gmail.com | celular: 3227209317
+              <br> 2023
+            </small>
+          </div>
+      </div>
+      </footer>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
